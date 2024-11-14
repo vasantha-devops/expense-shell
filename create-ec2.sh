@@ -1,7 +1,7 @@
 #!/bin/bash
 
 instances=("mysql" "backend" "frontend")
-domain_name="daws78s.online"
+domain_name="dawsnetwork.store"
 hosted_zone_id="Z08884492QFPW45HM4UQO"
 
 for name in ${instances[@]}; do
