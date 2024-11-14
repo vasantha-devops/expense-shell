@@ -2,7 +2,7 @@
 
 instances=("mysql" "backend" "frontend")
 domain_name="dawsnetwork.store"
-hosted_zone_id="Z08884492QFPW45HM4UQO"
+hosted_zone_id="Z07498832L2T1VBACG9UQ"
 
 for name in ${instances[@]}; do
     if [ $name == "mysql" ]
